@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "kernelspec": {
+      "name": "python",
+      "display_name": "Python (Pyodide)",
+      "language": "python"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "python",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.8"
+    }
+  },
+  "nbformat_minor": 5,
+  "nbformat": 4,
+  "cells": [
+    {
+      "id": "b54dfe06-1f6b-45d3-84e1-56407a869777",
+      "cell_type": "markdown",
+      "source": "# Variable Declaration Rules\n\n- Variable names must begin with a letter (a–z, A–Z) or an underscore (_)\n- Variable names cannot begin with a number\n- They can contain letters, numbers, and underscores\n- They are case-sensitive (e.g., name and Name are different)\n- Do not use Python reserved keywords like if, for, class, etc.",
+      "metadata": {}
+    },
+    {
+      "id": "048dfaa3-15fd-4f1a-ac29-2f7fa89f5254",
+      "cell_type": "code",
+      "source": "# Integer variable:\nage = 20  # An integer representing age\n\n# Float variable:\nheight = 5.9  # A float representing height in feet\n\n# String variable:\nname = \"Alice\"  # A string representing a name\n\n# Boolean variable:\nis_student = True  # A boolean indicating student status\n\n# List variable:\nfruits = [\"apple\", \"banana\", \"mango\"]  # A list of fruit names",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 12
+    },
+    {
+      "id": "65b302b5-4e80-4197-add3-31cbf7af8da9",
+      "cell_type": "markdown",
+      "source": "# Arithmathic Oprators:\n  - a = 23 \n  - b = 6 ",
+      "metadata": {}
+    },
+    {
+      "id": "fa1226c2-8b7a-40e1-8009-cf0faa626e89",
+      "cell_type": "code",
+      "source": "# Addition:\na,b = 23,6 \nprint(\"Addition:\", a + b)  \n\n# Subtraction:\nprint(\"Subtraction:\", a - b)  \n\n# Multiplication:\nprint(\"Multiplication:\", a * b)  \n\n# Division:\nprint(\"Division:\", a / b)  \n\n# Modulus:\nprint(\"Modulus:\", a % b)  \n\n# Exponentiation:\nprint(\"Exponentiation:\", a ** b)  \n\n# Floor Division:\nprint(\"Floor Division:\", a // b)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "Addition: 29\nSubtraction: 17\nMultiplication: 138\nDivision: 3.8333333333333335\nModulus: 5\nExponentiation: 148035889\nFloor Division: 3\n"
+        }
+      ],
+      "execution_count": 5
+    },
+    {
+      "id": "44522c7b-7255-4018-a0f4-3e5f2ee49252",
+      "cell_type": "markdown",
+      "source": "# Comparison Operators",
+      "metadata": {}
+    },
+    {
+      "id": "cf77c021-ab22-4fa8-b09f-61921388402a",
+      "cell_type": "code",
+      "source": "# Equal to (==):\nprint(\"Equal to:\", a == b)\n\n# Not equal to (!=):\nprint(\"Not equal to:\", a != b)\n\n# Greater than (>):\nprint(\"Greater than:\", a > b)\n\n# Less than (<):\nprint(\"Less than:\", a < b)\n\n# Greater than or equal to (>=):\nprint(\"Greater than or equal to:\", a >= b) \n\n# Less than or equal to (<=):\nprint(\"Less than or equal to:\", a <= b)\n",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "Equal to: False\nNot equal to: True\nGreater than: True\nLess than: False\nGreater than or equal to: True\nLess than or equal to: False\n"
+        }
+      ],
+      "execution_count": 6
+    },
+    {
+      "id": "2b8774ca-94bf-4643-8074-6b91c9ea5d70",
+      "cell_type": "markdown",
+      "source": "# Logical Oprators ",
+      "metadata": {}
+    },
+    {
+      "id": "9cf8797a-863d-4cb9-adc4-cc37e1d902c8",
+      "cell_type": "code",
+      "source": "# logical operators to combine expressions:\n#  'and':\nprint(\"a > 5 and b < 10:\", a > 5 and b < 10)  \n\n# 'or':\nprint(\"a < 5 or b < 10:\", a < 5 or b < 10)  \n\n# 'not':\nprint(\"not (a == b):\", not (a == b))",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "a > 5 and b < 10: True\na < 5 or b < 10: True\nnot (a == b): True\n"
+        }
+      ],
+      "execution_count": 7
+    },
+    {
+      "id": "cc37b9c8-08a8-4907-9055-c5c0e5bd66d3",
+      "cell_type": "markdown",
+      "source": "# Assignment Oprators",
+      "metadata": {}
+    },
+    {
+      "id": "9d212ed5-d6ba-4229-b420-11c7746b94ff",
+      "cell_type": "code",
+      "source": " x = 20\nprint(\"Initial x:\", x)\n\nx += 5\nprint(\"After x += 5:\", x)\n\nx -= 3\nprint(\"After x -= 3:\", x)\n\nx *= 2\nprint(\"After x *= 2:\", x)\n\nx /= 4\nprint(\"After x /= 4:\", x)\n\nx //= 2\nprint(\"After x //= 2:\", x)\n\nx %= 3\nprint(\"After x %= 3:\", x)\n\nx = 4\nprint(\"After x = 4:\", x)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "Initial x: 20\nAfter x += 5: 25\nAfter x -= 3: 22\nAfter x *= 2: 44\nAfter x /= 4: 11.0\nAfter x //= 2: 5.0\nAfter x %= 3: 2.0\nAfter x = 4: 4\n"
+        }
+      ],
+      "execution_count": 9
+    },
+    {
+      "id": "a7fed708-4c1b-4c13-81ed-9966309fa41e",
+      "cell_type": "markdown",
+      "source": "#  Membership Operators",
+      "metadata": {}
+    },
+    {
+      "id": "d976dde3-2521-441c-8f43-58757deeb474",
+      "cell_type": "code",
+      "source": "items = [\"pen\", \"pencil\", \"eraser\"]\n\n# 'in' operator:\nprint(\"Is 'pen' in items?\", \"pen\" in items)  # 'in' to check if a value exists\n\n# 'not in' operator:\nprint(\"Is 'marker' not in items?\", \"marker\" not in items) # 'not in' to check if a value does not exist",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "Is 'pen' in items? True\nIs 'marker' not in items? True\n"
+        }
+      ],
+      "execution_count": 13
+    },
+    {
+      "id": "668503c2-eb96-4960-a022-b0ee768a2bf3",
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    }
+  ]
+}
