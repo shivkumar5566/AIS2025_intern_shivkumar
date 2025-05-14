@@ -42,3 +42,36 @@ This notebook(Python Built-in Data Types - Key Concepts & Methods)
 5.Set
 
 6.Dictionary
+
+**Task-3 (Python Control Structures: if, for, while, break, continue, pass)**
+# Task-3: Python Control Structures
+
+Intern Name: Shivkumar kuntamal
+
+Date: 14/5/2025
+
+## Sections Covered
+
+###  Section 1: Conditional Statements
+- if
+- if-else
+- if-elif-else
+- Examples: Checking positivity, voting eligibility, grading system, etc.
+
+### Section 2: for Loop
+- Looping over ranges and collections
+- Examples: Printing numbers, even numbers, factorial, counting vowels, etc.
+
+### Section 3: while Loop
+- Repetition with conditions
+- Examples: Fibonacci series, reversing numbers, digit counting, summing inputs
+
+### Section 4: Control Statements
+- break
+- continue
+- pass
+- Examples: Early loop exit, skipping elements, using pass in placeholders
+
+
+
+
