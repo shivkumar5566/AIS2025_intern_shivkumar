@@ -74,4 +74,52 @@ Date: 14/5/2025
 
 
 
+# Python Practice: Task 4
+Intern Name: Shivkumar kuntamal
+
+Date: 16/5/2025
+
+
+ **Task 4**, covering user-defined functions, lambda functions, and built-in functions like `map()`, `filter()`, and `format()`. It's designed for Python beginners to practice core concepts.
+
+
+## Task Breakdown
+
+### A. User-defined Functions
+
+1. **square_list**: Takes a list of numbers and returns a list of their squares.
+2. **count_vowels**: Takes a string and returns the number of vowels.
+3. **is_armstrong**: Checks if a given number is an Armstrong number.
+4. **names_starting_with_s**: Filters and returns names starting with 'S' from a list.
+5. **hcf**: Calculates and returns the Highest Common Factor (HCF) of two numbers.
+
+### B. Lambda Functions
+
+1. **div_by_5**: Checks if a number is divisible by 5.
+2. **c_to_f**: Converts Celsius to Fahrenheit.
+3. **cube**: Returns the cube of a number.
+4. **add_strings**: Concatenates two strings.
+5. **length_gt_8**: Checks if the length of a string is greater than 8.
+
+### C. Filter Function Examples
+
+1. Filters strings with length greater than 4.
+2. Extracts numbers greater than 100.
+3. Filters odd numbers from a list.
+4. Finds names ending with the letter 'a'.
+5. Filters out non-integer elements from a mixed list.
+
+### D. Format Function
+
+- Uses Python’s `format()` to print:  
+  `"Student {name} scored {marks} marks in {subject}"`
+
+### E. Map Function Examples
+
+1. Converts a list of integers to their squares.
+2. Converts strings in a list to uppercase.
+3. Subtracts 2 from every number using `map()` and `lambda`.
+4. Gets the length of each word in a sentence.
+5. Multiplies each element in a list by its index.
+
 
