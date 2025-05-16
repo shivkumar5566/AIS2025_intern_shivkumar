@@ -122,4 +122,28 @@ Date: 16/5/2025
 4. Gets the length of each word in a sentence.
 5. Multiplies each element in a list by its index.
 
+# Task 5: NumPy Library 🧮
+
+This task covers the basics of the **NumPy** library, one of the most powerful and widely used Python libraries for numerical computing. It includes array creation, mathematical operations, indexing, slicing, and more.
+
+## Installation
+pip install numpy
+
+1️⃣ Array Creation (Manual)
+2️⃣ Array Creation (Built-in Methods)
+3️⃣ Array Operations & Functions
+ Arithmetic (Element-wise)
+ Aggregates
+Math Functions
+Reshape & Flatten
+4️⃣ Matrix Operations
+5️⃣ Indexing
+6️⃣ Slicing
+1D Array
+2D Array
+
+
+
+
+
 
