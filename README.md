@@ -147,28 +147,28 @@ Reshape & Flatten
 1D Array
 2D Array
 
-Task 6: Pandas Library
+**#Task 6: Pandas Library**
 Intern Name: Shivkumar nagesh kuntamal
 Date: 20/05/2025
 
-Topics Covered
-1. DataFrame Creation
+**Topics Covered**
+**1. DataFrame Creation**
 Creating a DataFrame from dictionaries
 Displaying and exploring the structure of a DataFrame
-2. Data Exploration
+**2. Data Exploration**
 Accessing rows and columns
 Using .head(), .tail(), .info(), and .describe() to inspect data
-3. Sorting Data
+**3. Sorting Data**
 Sorting by a single column (sort_values())
 Sorting by index (sort_index())
-4. Grouping and Aggregation
+**4. Grouping and Aggregation**
 Grouping data using .groupby()
 Applying aggregation functions like mean(), sum(), count()
-5. Missing Data Handling
+**5. Missing Data Handling**
 Detecting missing data (isnull(), notnull())
 Filling missing data (fillna())
 Replacing specific values
-6. Boolean Indexing
+**6. Boolean Indexing**
 Filtering data using conditions
 Accessing rows based on conditional logic
 
