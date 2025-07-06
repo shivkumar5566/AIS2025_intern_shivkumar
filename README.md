@@ -175,7 +175,9 @@ Filtering data using conditions Accessing rows based on conditional logic
 
 
 **Task 7: Data Visualization with Matplotlib and Seaborn Libraries**
+
 Intern Name: Shivkumar Nagesh Kuntamal
+
 Date: 24/05/2025
 
 **1. Matplotlib Library**
