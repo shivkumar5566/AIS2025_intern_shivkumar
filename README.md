@@ -148,7 +148,7 @@ Reshape & Flatten
 2D Array
 
 **#Task 6: Pandas Library**
-Intern Name: Shivkumar nagesh kuntamal
+Intern Name: Shivkumar Nagesh Kuntamal
 Date: 20/05/2025
 
 **Topics Covered**
@@ -170,6 +170,58 @@ Detecting missing data (isnull(), notnull()) Filling missing data (fillna()) Rep
 
 **6. Boolean Indexing**=
 Filtering data using conditions Accessing rows based on conditional logic
+
+
+**Task 7: Data Visualization with Matplotlib and Seaborn Libraries**
+Intern Name: Shivkumar Nagesh Kuntamal
+Date: 24/05/2025
+
+**1. Matplotlib Library**
+
+What is Matplotlib?
+Matplotlib is a 2D plotting library in Python. It allows you to create static, animated, and interactive plots.
+
+Features:
+Line plots
+Bar charts
+Histograms
+Pie charts
+Scatter plots
+Required Import:
+import matplotlib.pyplot as plt
+
+# Create a line plot
+plt.plot(x, y, color='green', linestyle='--', marker='o', label='Line Chart')
+plt.title("Basic Line Plot")
+plt.xlabel("X-Axis")
+plt.ylabel("Y-Axis")
+plt.legend()
+plt.grid(True)
+plt.show()
+
+**2. Seaborn Library**
+What is Seaborn?
+
+Seaborn is a high-level interface built on top of Matplotlib. It is especially useful for statistical visualizations and works well with pandas DataFrames.
+
+**Features:**
+Beautiful default styles
+Histogram, boxplot, violin plot, heatmap
+Pair plots and regression plots
+Built-in themes and color palettes
+Required Import:
+import seaborn as sns
+import matplotlib.pyplot as plt
+import pandas as pd
+
+# Load built-in dataset
+tips = sns.load_dataset("tips")
+
+# Create a scatterplot
+sns.scatterplot(x='total_bill', y='tip', data=tips, hue='sex')
+plt.title("Tip vs. Total Bill")
+plt.show()
+
 
 
 
