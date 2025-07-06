@@ -148,7 +148,9 @@ Reshape & Flatten
 2D Array
 
 **#Task 6: Pandas Library**
+
 Intern Name: Shivkumar Nagesh Kuntamal
+
 Date: 20/05/2025
 
 **Topics Covered**
@@ -181,7 +183,7 @@ Date: 24/05/2025
 What is Matplotlib?
 Matplotlib is a 2D plotting library in Python. It allows you to create static, animated, and interactive plots.
 
-Features:
+**Features:**
 Line plots
 Bar charts
 Histograms
@@ -213,9 +215,6 @@ Required Import:
 import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
-
-# Load built-in dataset
-tips = sns.load_dataset("tips")
 
 # Create a scatterplot
 sns.scatterplot(x='total_bill', y='tip', data=tips, hue='sex')
