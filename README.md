@@ -223,6 +223,22 @@ sns.scatterplot(x='total_bill', y='tip', data=tips, hue='sex')
 plt.title("Tip vs. Total Bill")
 plt.show()
 
+**Task 8: Analytical Data Pre-processing Concepts**
+
+Intern Name: Shivkumar Nagesh Kuntamal
+
+Date:
+
+**** Data Understanding****
+**Goal: Understand the structure, types, and initial quality of the dataset**.
+
+**• Load the Titanic dataset using pandas.**
+**• Check data types (df.dtypes)**
+**• Use df.describe() to view statistical measures for numeric columns.**
+**• Use df.head() to get an initial look at the dataset structure**.
+**• Identify how many values are missing per column.**
+**• Retrieve all column names in the dataset.**
+**• Use df.info() to get a summary of the dataset including types and null counts.**
 
 
 
